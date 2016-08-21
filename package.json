@@ -1,0 +1,29 @@
+{
+  "name": "ntuosc-geocaching-core-node",
+  "version": "0.0.1",
+  "description": "A RESTful back-end server used in geocaching game written in Node.js",
+  "main": "lib/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTUOSC/ntuosc-geocaching-core-node.git"
+  },
+  "keywords": [
+    "geocaching",
+    "ntu"
+  ],
+  "scripts": {
+    "build": "node lib/build.js",
+    "start": "npm run build & node lib/app.js"
+  },
+  "author": "m80126colin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NTUOSC/ntuosc-geocaching-core-node/issues"
+  },
+  "homepage": "https://github.com/NTUOSC/ntuosc-geocaching-core-node#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "lokijs": "^1.4.1"
+  }
+}
