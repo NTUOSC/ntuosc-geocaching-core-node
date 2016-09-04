@@ -1,3 +1,5 @@
 node_modules/
 config/
 data/
+
+npm-debug.log
