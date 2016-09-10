@@ -3,7 +3,8 @@
 module.exports = {
   database: {
     dir:  './path/to/database',
-    file: './path/to/database/database.json'
+    file: './path/to/database/database.json',
+    init: {}
   },
   ssl: {
     key:  './your/private/key.pem',
